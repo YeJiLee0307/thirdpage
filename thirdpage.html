@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Map | yeeyeji</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #eae6df;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    .container {
+      position: relative;
+      max-width: 1366px;
+      margin: 0 auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    .link {
+      position: absolute;
+      text-decoration: none;
+      color: transparent;
+    }
+
+    /* 위치 재정렬 (이미지 기준에 따라 보정) */
+    .f { top: 15.1%; left: 12%; width: 5.8%; height: 7.8%; }
+    .t { top: 33.2%; left: 21%; width: 5.8%; height: 7.8%; }
+    .p1 { top: 33.2%; left: 42%; width: 5.8%; height: 7.8%; }
+    .p2 { top: 49.1%; left: 31%; width: 5.8%; height: 7.8%; }
+    .v { top: 75.0%; left: 12%; width: 5.8%; height: 7.8%; }
+
+    .link:hover {
+      outline: 2px dashed rgba(128, 0, 128, 0.4);
+      border-radius: 2px;
+    }
+/* 디버깅용 배경
+    .link {
+  position: absolute;
+  text-decoration: none;
+  color: transparent;
+  background-color: rgba(255, 0, 0, 0.3);  
+} */
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="thirdpage.png" alt="portfolio map" />
+
+    <!-- 외부 링크 -->
+    <a class="link f" href="https://yejilee0307.github.io/fineart-portfolio/fineart.html" target="_blank">F</a>
+    <a class="link t" href="https://yejilee0307.github.io/tech2/tech.html" target="_blank">T</a>
+    <a class="link p1" href="https://yejilee0307.github.io/photo/photo.html" target="_blank">P</a>
+    <a class="link p2" href="https://yejilee0307.github.io/project/project.html" target="_blank">P</a>
+    <a class="link v" href="https://yejilee0307.github.io/visual_design/visual_design.html" target="_blank">V</a>
+  </div>
+</body>
+</html>
