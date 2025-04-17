@@ -37,6 +37,27 @@
       outline: 2px dashed rgba(128, 0, 128, 0.4);
       border-radius: 2px;
     }
+    .back-button {
+    display: block;
+    margin: 50px auto 30px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 2px solid #aaa;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .back-button:hover {
+  background-color: #ddd;
+  border-color: #888;
+  color: #000;
+}
+
 /* 디버깅용 배경
     .link {
   position: absolute;
@@ -59,5 +80,7 @@
     <a class="link p2" href="https://yejilee0307.github.io/project/project.html" target="_blank">P</a>
     <a class="link v" href="https://yejilee0307.github.io/visual_design/visual_design.html" target="_blank">V</a>
   </div>
+    <!-- 뒤로가기 버튼 -->
+  <button class="back-button" onclick="history.back()">← Go Back</button>
 </body>
 </html>
